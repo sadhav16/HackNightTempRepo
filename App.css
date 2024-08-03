@@ -1,0 +1,153 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding: 20px;
+}
+
+input {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #61dafb;
+  border-radius: 4px;
+  color: #333;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #4fa3d1;
+}
+
+.repo-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px;
+}
+
+.repo-card {
+  background: #333;
+  color: #fff;
+  border-radius: 8px;
+  width: 300px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+.repo-card:hover {
+  transform: scale(1.05);
+}
+
+.repo-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.repo-name {
+  font-size: 20px;
+  margin: 0;
+}
+
+.repo-description {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.repo-stack-percentage {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.repo-commits {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+/* Styles for the stats box */
+.stats-box {
+  background: #444;
+  color: #fff;
+  border-radius: 8px;
+  width: 300px;
+  padding: 20px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.stats-box h2 {
+  font-size: 1.5rem;
+}
+
+.stats-box p, .stats-box h3, .stats-box h4 {
+  margin: 5px 0;
+}
+
+/* New styles for the username box */
+.username-box {
+  background: #61dafb;
+  color: #282c34;
+  border-radius: 50px; /* Oval shape */
+  width: 250px;
+  padding: 15px;
+  margin: 20px auto;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Styles for stack list */
+.stack-container {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.stack-box {
+  display: inline-flex;
+  align-items: center;
+  background: transparent;
+  border: 2px solid #61dafb; /* Green outline */
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin: 5px;
+  font-size: 14px;
+  color: #61dafb;
+  text-align: center;
+}
+
+.stack-box:nth-of-type(odd) {
+  border-color: #4fa3d1;
+  color: #4fa3d1;
+}
